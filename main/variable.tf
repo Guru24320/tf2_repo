@@ -17,3 +17,15 @@ variable "rg_name" {
      "purpose" = "testing"
               }
    }
+   variable "org_name" {
+       description = "organisation name"
+       type = string
+       default = "guru"
+   }
+   variable "project_name" {
+       description = "organisation name"
+       type = string
+       default = "batch2"
+   }
+     
+   
